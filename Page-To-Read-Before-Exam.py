@@ -21,9 +21,9 @@ y = datetime.datetime.now().month
 d0 = datetime.datetime.today() #Today's Date
 
 def GetDatefunc():
-
-        UserIn = input("Start Date (DD/MM/YYYY):")
+    while True:
         try:
+            UserIn = input("Start Date (DD/MM/YYYY):")
             ds = datetime.datetime.strptime(UserIn, "%d/%m/%Y")
         except Exception as e:
             print ("ops watch the format!")
@@ -31,13 +31,15 @@ def GetDatefunc():
             return ds
 
 def GetDatefunc2():
-        UserIn2 = input("End Date (DD/MM/YYYY):")
+    while True:
         try:
+            UserIn2 = input("End Date (DD/MM/YYYY):")
             df = datetime.datetime.strptime(UserIn2, "%d/%m/%Y")
         except Exception as e:
             print ("ops watch the format!")
         else:
             return df
+
 
 ds = GetDatefunc()
 df = GetDatefunc2()
@@ -54,11 +56,19 @@ dealtac = df - ds
 dealc = d0 - ds
 
 #-------------------------Define Page Number and Calculate Average Page per Day-------------------------
-#Page = 300.0
-Page = int(input("Enter the Amount of Page:"))
+def GetPagefunc():
+     while True:
+        try:
+            Page = int(input("Enter the Amount of Page:"))
+        except Exception as e:
+            print ("ops make sure it's a number")
+        else:
+            return Page
+
+Page = GetPagefunc()
 PageLeftc = Page / dealtac.days
 PageLeft = Page - dealc.days * PageLeftc
-
+#Page = 300.0
 #PageLeft = Page - dealta.days * PageLeftc
 #PageLeft = Page - dealta.days * int(PageLeftc)
 #round (Page / dealta.days, 2)
@@ -67,4 +77,5 @@ PageLeft = Page - dealc.days * PageLeftc
 print(calendar.month(x,y))
 print ("Time till Exam:", dealta.days)
 print ("Page Per Day:", round(PageLeftc,2))
-print ("Page Left:", PageLeft)
+print ("Page Left:", round(PageLeft,2))
+#print ("Page Left:", PageLeft)
