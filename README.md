@@ -1,4 +1,5 @@
 # Python-Misc.
 Python Scripts for Miscellaneous Purposes
 
-klkjlkj
+#Page-To-Read-Before-Exam.py
+Counts the pages of textbook that you will need to study everyday before the Exam.
