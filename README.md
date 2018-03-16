@@ -7,4 +7,4 @@ Counts the pages of textbook that you will need to study everyday before the Exa
 Approximate pi for you.
 
 ### 3-Body Problem
-Model the traditional physics problem of effect of gravity between the Sun, the Moon, and the Earth.
+Model the traditional physics problem of the effect of gravity between the Sun, the Moon, and the Earth.
