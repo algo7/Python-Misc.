@@ -54,7 +54,8 @@ dealtac = df - ds
 dealc = d0 - ds
 
 #-------------------------Define Page Number and Calculate Average Page per Day-------------------------
-Page = 300.0
+#Page = 300.0
+Page = int(input("Enter the Amount of Page:"))
 PageLeftc = Page / dealtac.days
 PageLeft = Page - dealc.days * PageLeftc
 
