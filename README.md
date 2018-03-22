@@ -6,5 +6,8 @@ Counts the pages of textbook that you will need to study everyday before the Exa
 ### pi-Approximation.py
 Approximate pi for you.
 
-### 3-Body Problem
+### 3-Body-Problem.py
 Model the traditional physics problem of the effect of gravity between the Sun, the Moon, and the Earth.
+
+### Rainbow.py
+Read a text file line-by-line and output the MD5 hash digest of each line. Can be use to calculate the MD5 precomputed hashlist of a wordlist.
