@@ -10,4 +10,4 @@ Approximate pi for you.
 Model the traditional physics problem of the effect of gravity between the Sun, the Moon, and the Earth.
 
 ### Rainbow.py
-Read a text file line-by-line and output the MD5 hash digest of each line. Can be use to calculate the MD5 precomputed hashlist of a wordlist.
+Read a text file line-by-line and output the MD5 hash digest of each line into a file. Can be use to calculate the precomputed MD5 hashlist of a wordlist.
