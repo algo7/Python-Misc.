@@ -9,8 +9,7 @@ Python Scripts for Miscellaneous Purposes
   python3.x Rainbow_MD5.py
   python3.x Rainbow_SHA1(256,384,512).py
 
-3.Note: Make sure you name the infile as 8H and clear the rid the directory of    MD.txt before running. (Feel free to customize in/out file name in the code). 
-
+3.Note: Make sure you name the infile as 8H and clear the rid the directory of    MD.txt before running. (Feel free to customize in/out file name in the code).
 
 ## Scripts Explanation:
 
